@@ -9,7 +9,7 @@ const createIfNotPresent = async (id: string) => {
 
   if (!user) {
 
-    await users.createUser({id});
+    //await users.createUser({id});
   }
 };
 
